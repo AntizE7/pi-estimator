@@ -10,5 +10,7 @@ Si cela, ne fonctionne pas, veillez à rendre le script comp exécutable, pour c
 
 Ensuite recommencer la dernière étape
 
-|n=100000|numpy|spark| |----------|:-------------:|------:| |tps d'exécution|0.0367|2.6760| |----------|:-------------:|------:| |valeur de pi|3.144320|3.13920|
+Comparaison des résultats :
+
+| n=100000 | numpy | spark | |----------|:-------------:|------:| | tps d'exécution | 0.0367 | 2.6760 | |----------|:-------------:|------:| | valeur de pi | 3.144320 | 3.13920 |
  
