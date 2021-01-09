@@ -14,7 +14,8 @@ Comparaison des résultats :
 
 | n=100000          | numpy    | spark   |
 |-------------------|----------|---------|
-| temps d'exécution | 0.0367   | 2.6760  |
-| valeur de pi      | 3.144320 | 3.13920 |
-|                   |          |         |
+| temps d'exécution | 0.03648  | 1.41378 |
+| valeur de pi      | 3.150880 | 3.147760 |
+| Ecart             | 0.2956         | 0.1963        |
  
+Si l'on passe à une estimation avec 1000000 d'itérations, nous observons une plus grande précision de pi pour les deux méthodes, mais nous remarquons que le temps d'exécution augmente plus significativement pour la méthode numpy, alors que la méthode spark a un temps d'exécution à peine plus élevé.
