@@ -12,5 +12,9 @@ Ensuite recommencer la dernière étape
 
 Comparaison des résultats :
 
-| n=100000 | numpy | spark | |----------|:-------------:|------:| | tps d'exécution | 0.0367 | 2.6760 | |----------|:-------------:|------:| | valeur de pi | 3.144320 | 3.13920 |
+| n=100000          | numpy    | spark   |
+|-------------------|----------|---------|
+| temps d'exécution | 0.0367   | 2.6760  |
+| valeur de pi      | 3.144320 | 3.13920 |
+|                   |          |         |
  
